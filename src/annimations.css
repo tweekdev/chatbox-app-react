@@ -1,0 +1,28 @@
+.fade-enter {
+	opacity: .01;	
+	-webkit-transform: scale(.9) translateY(-50%);	
+    transform: scale(.9) translateY(-50%);
+}
+
+.fade-enter-active {
+	opacity: 1;
+	-webkit-transform: scale(1) translateY(-50%);
+    transform: scale(1) translateY(0%);
+	-webkit-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
+}
+		
+		
+.fade-exit {
+	opacity: 1;	
+	-webkit-transform: scale(1) translateY(0%);	
+    transform: scale(1) translateY(0%);
+}
+
+.fade-exit-active {
+	opacity: .01;
+	-webkit-transform: scale(.9) translateY(-50%);
+	transform: scale(.9) translateY(-50%);
+	-webkit-transition: all 200ms ease-out;
+	transition: all 200ms ease-out;
+}
